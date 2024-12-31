@@ -8,17 +8,17 @@ const language_skills = [
 
 const Language = () => {
   return (
-    <div className='space-y-12'>
+    <div className='space-y-6 intersect:motion-preset-fade md:mt-0 mt-40'>
         <div>
-            <h1 className='text-5xl font-bold text-center'>Language</h1>
+            <h1 className='text-4xl font-bold text-center'>Language</h1>
         </div>
-
-        <div>
+        <hr className="w-1/2 h-0.5 mx-auto rounded-lg bg-[#ffffff21] border-0"></hr> 
+        <div className='justify-self-center md:justify-self-start'>
             {language_skills.map((item,idx) => {
                 return (
-                    <div className='my-5'>
-                        <h2 key={idx} className='text-lg font-bold'>{item[0]}</h2>
-                        <a>{item[1]}</a>
+                    <div key={idx} className='mb-3'>
+                        <h2 className='text-lg'>{item[0]}</h2>
+                        <a className='text-xs text-[#737373]'>{item[1]}</a>
 
                     </div>
                 )

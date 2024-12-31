@@ -12,16 +12,8 @@ const NAV_ITEMS: Array<NavItems> = [
     page: "home",
   },
   {
-    label: "Experience",
-    page: "experience",
-  },
-  {
-    label: "Skills",
-    page: "experience",
-  },
-  {
-    label: "Language",
-    page: "experience",
+    label: "About Me",
+    page: "about_me",
   },
   {
     label: "Projects",
