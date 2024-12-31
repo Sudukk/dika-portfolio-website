@@ -8,7 +8,7 @@ const language_skills = [
 
 const Language = () => {
   return (
-    <div className='space-y-6 intersect:motion-preset-fade md:mt-0 mt-40'>
+    <div className='space-y-6 intersect:motion-preset-fade md:mt-0 mt-40 md:px-5'>
         <div>
             <h1 className='text-4xl font-bold text-center'>Language</h1>
         </div>

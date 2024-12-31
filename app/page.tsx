@@ -20,15 +20,15 @@ const Homepage = () => {
       <div id="home" className='my-36 mx-12 md:mx-40'>
         
         <Introduction/>
-        <hr className="w-4/5 h-0.5 mx-auto mt-40 mb-24 rounded-lg bg-[#ffffff21] border-0"></hr>
+        <hr id="about_me" className="w-4/5 h-0.5 mx-auto mt-40 mb-24 rounded-lg bg-[#ffffff21] border-0"></hr>
         <h1 className='text-5xl font-bold text-center mb-24'>About Me</h1>
-        <div id="about_me" className='md:flex justify-center m-2 md:space-x-48'>
+        <div className='md:flex justify-center m-5'>
           
           <Experience/>
           <Skills/>
           <Language/>
         </div>
-        <hr id="personal_projects" className="w-4/5 h-0.5 mx-auto mt-40 mb-12 rounded-lg bg-[#ffffff21] border-0"></hr>
+        <hr id="achievements" className="w-4/5 h-0.5 mx-auto mt-40 mb-12 rounded-lg bg-[#ffffff21] border-0"></hr>
         <Achievements/>
         <hr id="personal_projects" className="w-4/5 h-0.5 mx-auto mt-40 mb-12 rounded-lg bg-[#ffffff21] border-0"></hr>
         <PersonalProjects/>
