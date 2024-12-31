@@ -37,7 +37,7 @@ const WorkExperience = () => {
             <h2 className="font-bold text-2xl intersect:motion-preset-slide-left-sm">Fiverr Video Editor Freelancer</h2>
             <p className="text-xs intersect:motion-preset-slide-left-sm motion-delay-100">2022 - Now</p>
             <p className="mt-5 intersect:motion-preset-slide-left-sm motion-delay-200 text-justify">
-            I am a freelance Vtuber motion <strong>graphic designer</strong> and <strong>video editor</strong> located in Indonesia. I've worked with <strong>over 140+ projects</strong> and <strong>100+ clients</strong> from around the world. My services are Vtuber Teaser/Trailer, Streamer Pack, Vtuber Music Video. If you are interested or want to check out more, you can click the button below.</p>
+            I am a freelance Vtuber motion <strong>graphic designer</strong> and <strong>video editor</strong> located in Indonesia. I&apos;ve worked with <strong>over 140+ projects</strong> and <strong>100+ clients</strong> from around the world. My services are Vtuber Teaser/Trailer, Streamer Pack, Vtuber Music Video. If you are interested or want to check out more, you can click the button below.</p>
             <a href='https://www.fiverr.com/suduk_?up_rollout=true' className='mt-10 intersect:motion-preset-slide-left-md'>
               <button className="bg-[#6944f0] text-white px-6 py-2 rounded-lg hover:bg-gray-800 transition duration-200">
                 View Fiverr Profile 

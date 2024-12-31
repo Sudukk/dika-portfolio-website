@@ -25,7 +25,7 @@ const Introduction = () => {
       <div className="flex flex-col space-y-8">
         <div className="space-y-5 text-center md:text-left">
           <h1 className="text-4xl md:text-7xl font-bold mb-8">
-            Hi, I'm Wikandika Setya Nugroho
+            Hi, I&apos;m Wikandika Setya Nugroho
           </h1>
           <p className='text-justify'>
           I am a student at Institut Teknologi Sepuluh Nopember majoring in Information Systems. Who have a track record of success in various competitions and strong organizational skills. Demonstrate abilities in creativity, problem solving, and social skills,

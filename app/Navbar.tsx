@@ -36,7 +36,7 @@ const Navbar = () => {
     <header className="w-full mx-auto px-4 bg-black text-white fixed top-0 z-50">
       <div className="flex justify-between items-center py-4">
         <div className="font-bold text-xl">
-          Wikandika's Portfolio
+          Wikandika&apos;s Portfolio
         </div>
 
         <nav className="hidden md:flex space-x-6">
