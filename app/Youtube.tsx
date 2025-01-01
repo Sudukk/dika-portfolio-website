@@ -16,7 +16,7 @@ const Youtube = () => {
         </a>
       </div>
       <div className="flex flex-col md:flex-row items-center md:items-start md:justify-between p-5">
-        {/* Profile Image and SubCount */}
+
         <div className="flex flex-col items-center md:mb-0 p-5 shrink-0">
           <Image
             src={yt_image}
@@ -28,7 +28,6 @@ const Youtube = () => {
           <SubCount apiKey={yt_key} channelId={yt_channel_id} />
         </div>
 
-        {/* Description Section */}
         <div className="p-5 text-center md:text-left">
           <h2 className="text-3xl md:text-2xl font-bold mb-2 intersect:motion-preset-slide-left-md">
             Suduk
