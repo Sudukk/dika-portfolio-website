@@ -9,9 +9,9 @@ const hero_image = "/gambar_dika.jpg";
 
 const Introduction = () => {
   return (
-    <div className="flex flex-col md:flex-row items-center md:items-start md:space-y-0 md:space-x-12 intersect:motion-preset-fade md:py-12">
+    <div className="flex flex-col xl:flex-row items-center xl:items-start xl:space-y-0 xl:space-x-12 intersect:motion-preset-fade xl:py-12">
 
-      <div className="flex-shrink-0 mb-12 md:mb-0">
+      <div className="flex-shrink-0 mb-12">
         <Image
           src={hero_image}
           width={500}
@@ -24,7 +24,7 @@ const Introduction = () => {
 
       <div className="flex flex-col space-y-8">
         <div className="space-y-5 text-center md:text-left">
-          <h1 className="text-4xl md:text-7xl font-bold mb-8">
+          <h1 className="text-4xl lg:text-7xl font-bold mb-8">
             Hi, I&apos;m Wikandika Setya Nugroho
           </h1>
           <p className='text-justify'>

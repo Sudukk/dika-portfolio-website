@@ -11,7 +11,7 @@ const exp_list = [
 const Experience = () => {
   return (
     <>
-    <div className='flex-col space-y-6 intersect:motion-preset-fade md:px-5'>
+    <div className='flex-col space-y-6 md:mb-12 intersect:motion-preset-fade md:px-5'>
         <div>
             <h1 className='text-4xl font-bold text-center'>Experience</h1>
         </div>

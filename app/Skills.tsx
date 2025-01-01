@@ -15,7 +15,7 @@ const software_skills = [
 const Skills = () => {
   return (
     <>
-      <div className="flex flex-col space-y-6 intersect:motion-preset-fade md:mt-0 mt-40 md:px-5">
+      <div className="flex flex-col space-y-6 md:mb-12 intersect:motion-preset-fade md:mt-0 mt-40 md:px-5">
 
         <div>
           <h1 className="text-4xl font-bold text-center">Skills</h1>
@@ -24,7 +24,7 @@ const Skills = () => {
 
         <div>
           <h2 className="text-lg text-center mb-4">Coding</h2>
-          <div className="flex flex-wrap justify-center gap-4 px-36">
+          <div className="flex flex-wrap justify-center gap-4 lg:px-36">
             {coding_skills.map((item, idx) => (
               <p
                 key={idx}
@@ -38,7 +38,7 @@ const Skills = () => {
 
         <div>
           <h2 className="text-lg text-center mb-4">Software</h2>
-          <div className="flex flex-wrap justify-center gap-4 px-36">
+          <div className="flex flex-wrap justify-center gap-4 lg:px-36">
             {software_skills.map((item, idx) => (
               <p
                 key={idx}

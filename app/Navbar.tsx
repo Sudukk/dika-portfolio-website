@@ -33,7 +33,7 @@ const Navbar = () => {
   const [navbar, setNavbar] = useState(false);
 
   return (
-    <header className="w-full mx-auto px-4 bg-black text-white fixed top-0 z-50">
+    <header className="w-full mx-auto px-12 py-2 bg-[#080808] text-white fixed top-0 z-50">
       <div className="flex justify-between items-center py-4">
         <div className="font-bold text-xl">
           Wikandika&apos;s Portfolio

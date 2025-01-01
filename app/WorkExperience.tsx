@@ -31,7 +31,7 @@ const WorkExperience = () => {
         <h1 className="text-5xl font-bold text-center">Work Experience</h1>
       </div>
 
-      <div className="flex flex-col md:flex-row justify-between m-2 space-y-12 md:space-y-0 md:space-x-12">
+      <div className="flex flex-col 2xl:flex-row justify-between m-2 space-y-12 2xl:space-y-0 2xl:space-x-12">
         <div className="flex-1">
           <div className="flex flex-col">
             <h2 className="font-bold text-2xl intersect:motion-preset-slide-left-sm">Fiverr Video Editor Freelancer</h2>

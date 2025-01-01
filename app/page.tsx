@@ -9,7 +9,9 @@ import PersonalProjects from './PersonalProjects'
 import WorkExperience from './WorkExperience'
 import ObserverProvider from './ObserverProvide'
 import Achievements from './Achievements'
-
+// import { StaticComponent, DynamicComponent, Fallback } from '@/app/ui'
+ 
+export const experimental_ppr = true
 
 
 const Homepage = () => {
@@ -22,7 +24,7 @@ const Homepage = () => {
         <Introduction/>
         <hr id="about_me" className="w-4/5 h-0.5 mx-auto mt-40 mb-24 rounded-lg bg-[#ffffff21] border-0"></hr>
         <h1 className='text-5xl font-bold text-center mb-24'>About Me</h1>
-        <div className='md:flex justify-center m-5'>
+        <div className='xl:flex justify-center m-5 '>
           
           <Experience/>
           <Skills/>
