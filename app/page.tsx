@@ -9,7 +9,6 @@ import PersonalProjects from './PersonalProjects';
 import WorkExperience from './WorkExperience';
 import ObserverProvider from './ObserverProvide';
 import Achievements from './Achievements';
-import SubCount from './SubCount';
 import Youtube from './Youtube';
 import IntroductionSkeleton from './IntroductionSkeleton'
 

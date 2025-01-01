@@ -1,12 +1,6 @@
 
 "use client";
 import React from 'react';
-import Image from 'next/image';
-import { AiFillGithub } from "react-icons/ai";
-import { AiFillMail } from "react-icons/ai";
-import { AiFillInstagram } from "react-icons/ai";
-import Skeleton from 'react-loading-skeleton';
-
 
 const hero_image = "/gambar_dika.jpg";
 
