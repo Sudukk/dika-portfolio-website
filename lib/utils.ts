@@ -1,6 +1,6 @@
 import axios from "axios";
 
-export const fetchData = async (url:string) => {
+export const fetchData = async (url:any) => {
     try{
         const res = await axios(url)
         const {data} = res
