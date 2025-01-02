@@ -1,7 +1,6 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import { AiOutlineUser } from "react-icons/ai";
-import Skeleton from "react-loading-skeleton";
 
 interface SubCountProps {
   apiKey: string;
@@ -45,23 +44,16 @@ const SubCount: React.FC<SubCountProps> = ({ apiKey, channelId }) => {
     return <div className="text-center text-red-500">Could not load subscriber count</div>;
   }
 
-  if (subscriberCount === null) {
+  if (subscriberCount !== null) {
     return (
-      <div className="flex justify-center items-center p-3">
-        <Skeleton circle width={24} height={24} className="mr-2" />
-        <Skeleton width={150} />
-      </div>
-    );
-  }
-
-  return (
-    <div className="flex flex-col items-center justify-center p-3">
+      <div className="flex flex-col items-center justify-center p-3">
       <AiOutlineUser className="text-2xl md:text-lg mb-2" />
       <p className="text-center text-sm md:text-base">
         {subscriberCount.toLocaleString()} Subscribers
       </p>
     </div>
-  );
+    );
+  }
 };
 
 export default SubCount;

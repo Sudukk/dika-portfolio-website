@@ -1,3 +1,4 @@
+"use client"
 import React from 'react'
 
 const exp_list = [
@@ -9,7 +10,8 @@ const exp_list = [
 ]
 
 const Experience = () => {
-  return (
+
+return (
     <>
     <div className='flex-col space-y-6 md:mb-12 intersect:motion-preset-fade md:px-5'>
         <div>

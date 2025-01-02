@@ -1,3 +1,5 @@
+"use client"
+
 import React from 'react';
 
 const coding_skills = ["Python", "Java", "C++", "C#"];
@@ -13,6 +15,7 @@ const software_skills = [
 ];
 
 const Skills = () => {
+
   return (
     <>
       <div className="flex flex-col space-y-6 md:mb-12 intersect:motion-preset-fade md:mt-0 mt-40 md:px-5">

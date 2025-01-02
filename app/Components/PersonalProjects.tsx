@@ -1,3 +1,4 @@
+"use client"
 import React from 'react'
 import Image from 'next/image'
 
@@ -32,6 +33,7 @@ const PROJECTS = [
 ]
 
 const PersonalProjects = () => {
+
   return (
     <div className="space-y-12 px-4 md:px-12 lg:px-24 py-8 ">
 

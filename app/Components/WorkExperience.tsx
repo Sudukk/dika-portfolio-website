@@ -1,7 +1,7 @@
 "use client"
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
-const CLIENT_REVIEWS = [
+export const CLIENT_REVIEWS = [
   ['solisrouge ', '5 Stars', 'WOW!!! So good!!! I had a specific request and a very tight timeline -- they worked with it all!! Awesome, blown out of the water with their fast work and efficient process! Quality overall is great! Order with confidence. Thanks again!'],
   ['elaravtuber', '5 Stars', 'Always my go-to when it comes to promotional videos! Really easy to work with and quick to respond to any changes or revisions you need!'],
   ['azurathedragon', '5 Stars', 'The project I had was little more than an inkling of what i was wanting / needing, but after a talk with them they came up with the first video only a couple days after, they had a good creative direction with it but with a quick revision on some key details they produced a wonderful teaser for my new model debut! Highly recommended.'],
@@ -9,6 +9,7 @@ const CLIENT_REVIEWS = [
 ];
 
 const WorkExperience = () => {
+  
   const [expanded, setExpanded] = useState(Array(CLIENT_REVIEWS.length).fill(false));
 
   const toggleShowMore = (index: number) => {

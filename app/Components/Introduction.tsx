@@ -8,6 +8,7 @@ import { AiFillInstagram } from "react-icons/ai";
 const hero_image = "/gambar_dika.jpg";
 
 const Introduction = () => {
+
   return (
     <div className="flex flex-col xl:flex-row items-center xl:items-start xl:space-y-0 xl:space-x-12 intersect:motion-preset-fade xl:py-12">
 

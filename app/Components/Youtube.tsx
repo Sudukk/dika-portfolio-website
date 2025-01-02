@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import Image from 'next/image';
 import SubCount from './SubCount';
+import SubCountSkeleton from './SubCountSkeleton';
 
 const Youtube = () => {
+
   const yt_key = process.env.YT_API_KEY || '';
   const yt_channel_id = process.env.YT_CHANNEL_ID || '';
 
@@ -25,7 +27,11 @@ const Youtube = () => {
             alt="Wikandika Setya Nugroho"
             className="rounded-full w-[150px] h-[150px] md:w-[200px] md:h-[200px] object-cover mb-5"
           />
-          <SubCount apiKey={yt_key} channelId={yt_channel_id} />
+
+          <Suspense fallback={<SubCountSkeleton/>}>
+            <SubCount apiKey={yt_key} channelId={yt_channel_id} />
+          </Suspense>
+          
         </div>
 
         <div className="p-5 text-center md:text-left">

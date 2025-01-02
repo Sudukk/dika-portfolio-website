@@ -1,4 +1,6 @@
-import React from 'react'
+"use client"
+
+import React from 'react';
 
 const language_skills = [
     ["Indonesian", "Native"],
@@ -7,6 +9,7 @@ const language_skills = [
 ]
 
 const Language = () => {
+
   return (
     <div className='space-y-6 md:mb-12 intersect:motion-preset-fade md:mt-0 mt-40 md:px-5'>
         <div>
