@@ -1,5 +1,5 @@
 "use client"
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 
 export const CLIENT_REVIEWS = [
   ['solisrouge ', '5 Stars', 'WOW!!! So good!!! I had a specific request and a very tight timeline -- they worked with it all!! Awesome, blown out of the water with their fast work and efficient process! Quality overall is great! Order with confidence. Thanks again!'],
