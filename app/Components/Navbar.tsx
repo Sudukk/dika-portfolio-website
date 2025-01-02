@@ -60,7 +60,7 @@ const Navbar = () => {
       </div>
 
       {navbar && (
-        <nav className="md:hidden bg-black text-white">
+        <nav className="md:hidden bg-[#080808] text-white">
           <ul className="flex flex-col items-start p-4 space-y-4">
             {NAV_ITEMS.map((item, idx) => (
               <li key={idx}>
